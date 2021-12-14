@@ -1,9 +1,7 @@
 import React from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 
 const App = () => {
-  const store = useSelector(store => store)
-  console.log(store)
   const dispatch = useDispatch();
   return (
     <div className="App">
